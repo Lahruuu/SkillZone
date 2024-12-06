@@ -1,0 +1,148 @@
+/* General styling */
+div {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container styling */
+  div[style*="padding: 20px"] {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .ant-typography h1, .ant-typography h3, .ant-typography h4 {
+    color: #37474f;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .ant-typography h1 {
+    font-size: 2rem;
+    border-bottom: 2px solid #42a5f5;
+    padding-bottom: 0.5rem;
+  }
+  
+  .ant-typography h3 {
+    font-size: 1.5rem;
+  }
+  
+  .ant-typography h4 {
+    font-size: 1.25rem;
+  }
+  
+  /* Paragraph styling */
+  .ant-typography p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #607d8b;
+  }
+  
+  /* Link styling */
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #66bb6a;
+    color: white;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #43a047;
+    transform: translateY(-2px);
+  }
+  
+  /* Form styling */
+  .ant-form-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .ant-radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ant-radio-wrapper span {
+    font-size: 1rem;
+  }
+  
+  /* Button styling */
+  button[type="submit"] {
+    background-color: #d4d5d5;
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a6a6a6;
+    transform: translateY(-2px);
+  }
+  
+  button[type="submit"]:disabled {
+    background-color: #cfd8dc;
+    cursor: not-allowed;
+  }
+  
+  /* Radio group styling */
+  .ant-radio-wrapper span {
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+  
+  .ant-radio-wrapper span.green {
+    color: green;
+  }
+  
+  .ant-radio-wrapper span.red {
+    color: red;
+  }
+  
+  /* Result box styling */
+  div[style*="Test Result"] {
+    background-color: #e3f2fd;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+  }
+  
+  div[style*="Test Result"] p {
+    font-size: 1.1rem;
+    color: #37474f;
+    margin: 0.5rem 0;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .ant-typography h1 {
+      font-size: 1.5rem;
+    }
+  
+    .ant-typography h3 {
+      font-size: 1.25rem;
+    }
+  
+    .ant-typography h4 {
+      font-size: 1rem;
+    }
+  
+    button[type="submit"] {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
